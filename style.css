@@ -1,0 +1,239 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.logo {
+    text-align: center;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.intro {
+    text-align: center;
+    text-decoration: solid;
+    font-family: spline sans;
+}
+
+.destacados {
+    text-align: center;
+    font-family: spline sans;
+}
+
+.headline {
+    top: 247px;
+    left: 85px;
+    width: 350px;
+    height: 188px;
+    text-align: left;
+    font: normal normal bold 36px/38px Gotham;
+}
+
+#container {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.pic1 {
+    top: 488px;
+    left: 85px;
+    width: 380px;
+    height: 232px;
+    border-radius: 5px;
+    margin-top: 2px;
+    align-content: center;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.columna1 {
+    border: 2px solid white;
+    width: 28%;
+    padding: 10px;
+}
+
+.columna2 {
+    border: 2px solid white;
+    width: 40%;
+}
+
+.columna3 {
+    border: 2px solid rgb(255, 255, 255);
+    width: 30%;
+}
+
+.noticia1 {
+    top: 735px;
+    left: 85px;
+    width: 350px;
+    height: 105px;
+    text-align: left;
+    font: normal normal normal 18px/21px Work Sans;
+    letter-spacing: -0.45px;
+    color: #000000;
+    opacity: 1;
+}
+
+.titulos_azules {
+    top: 857px;
+    left: 85px;
+    width: 195px;
+    height: 14px;
+    text-align: left;
+    letter-spacing: -0.35px;
+    color: #1300c0;
+    text-transform: uppercase;
+    margin-left: 2px;
+    font-weight: 900;
+}
+
+.pic2 {
+    top: 247px;
+    left: 465px;
+    width: 445px;
+    height: 308px;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.pic3 {
+    top: 982px;
+    left: 465px;
+    width: 160px;
+    height: 106px;
+    background: transparent url("img/FotoJet-1.png") 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.pic4 {
+    top: 925px;
+    left: 940px;
+    width: 270px;
+    height: 197px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.parrafos {
+    top: 1054px;
+    left: 85px;
+    width: 350px;
+    height: 76px;
+    text-align: left;
+    font: normal normal normal 16px/19px Work Sans;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.tituloss {
+    top: 882px;
+    left: 85px;
+    width: 350px;
+    height: 38px;
+    text-align: left;
+    font: normal normal bold 18px/20px Gotham;
+    letter-spacing: -0.36px;
+    color: #000000;
+}
+
+.columna2 p h1 h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.publicidad {
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
